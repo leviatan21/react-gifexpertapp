@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Puebas en <GiftGridItem /> Componente GiftGridItem 1`] = `
+<div
+  className="card animate__animated animate__fadeIn animate__delay-2s"
+>
+  <img
+    alt="getpunches GIF by mannyjammy"
+    src="https://media3.giphy.com/media/3ohc1292yKn6Z1saGs/giphy.gif?cid=b1bbf17c1qvapj1ew4s6nuveegu7o50xrwvlagvr77c1reso&rid=giphy.gif"
+  />
+  <p>
+    getpunches GIF by mannyjammy
+  </p>
+</div>
+`;

@@ -7,12 +7,13 @@ export const AddCategory = ( { setCategories } ) => {
 	const [ inputValue, setInputValue ] = useState( initialState );
 	//
 	const handleInputChange = ( e ) => {
+		//	console.log( 'handleInputChange', e.target.value );
 		setInputValue( e.target.value );
 	}
 	//
 	const handleSubmit = ( e ) => {
 		e.preventDefault( );
-		//	console.log( inputValue );
+		//	console.log( 'handleSubmit', inputValue );
 		if ( inputValue.trim().length > 2 ) {
 			setCategories( state => [ inputValue, ...state ] );
 			setInputValue( initialState );
@@ -27,7 +28,6 @@ export const AddCategory = ( { setCategories } ) => {
 				onChange={ handleInputChange }
 				placeholder="..."
 			/>
-			<h2>Add Category</h2>
 		</form>
 	)
 }
