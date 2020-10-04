@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Puebas en <GiftGrid /> Componente GiftGrid 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Goku
+  </h3>
+  <p
+    className="loading animate__animated animate__flash"
+  >
+    Cargando
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Puebas en <GiftGrid /> useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Goku
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GiftGridItem
+      id="3ohc1292yKn6Z1saGs"
+      key="3ohc1292yKn6Z1saGs"
+      title="getpunches GIF by mannyjammy"
+      url="https://media3.giphy.com/media/3ohc1292yKn6Z1saGs/giphy.gif?cid=b1bbf17c1qvapj1ew4s6nuveegu7o50xrwvlagvr77c1reso&rid=giphy.gif"
+    />
+    <GiftGridItem
+      id="l41m1H2BYnLRV26QM"
+      key="l41m1H2BYnLRV26QM"
+      title="Bruce Lee One Inch Punch GIF by Supercompressor"
+      url="https://media2.giphy.com/media/l41m1H2BYnLRV26QM/giphy.gif?cid=b1bbf17c1qvapj1ew4s6nuveegu7o50xrwvlagvr77c1reso&rid=giphy.gif"
+    />
+  </div>
+</Fragment>
+`;

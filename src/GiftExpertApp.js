@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { AddCategory } from './components/AddCategory';
 import { GiftGrid } from './components/GiftGrid';
 //	rafc
-export const GiftExpertApp = () => {
+export const GiftExpertApp = ( { defaultState=[] } ) => {
 	//	
-	const initialState = [ 'One Punch' ];
+	const initialState = ( defaultState.length ) ? defaultState : [ 'One Punch' ];
 	const [ categories, setCategories ] = useState( initialState );
 	//
 	return(
